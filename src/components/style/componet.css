@@ -1,0 +1,87 @@
+#TD_header {
+    background-color: #006A4E;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Navbar_box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#navbar_button:hover {
+    border: none;
+    background-color: rgb(176, 176, 178);
+}
+
+#TD_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(177, 174, 174);
+}
+
+#offcanvasNavbar {
+    background-color: #006a4e;
+    border: none;
+}
+
+.box_form {
+    height: 60%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #006A4E;
+    border-radius: 15px;
+}
+
+.Form_logo {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_img_logo {
+    width: 150px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 100px;
+}
+
+#senaMalambo {
+    width: 480px;
+}
+
+.input_form {
+    height: 35px;
+    width: 250px;
+    border: none;
+}
+
+.Button_form {
+    margin-top: 15px;
+    height: 30px;
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Button_form:hover {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.Button_form:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(22, 200, 2);
+    border: 1px red;
+}
